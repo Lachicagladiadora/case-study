@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Satoshi", "sans-serif";
+
+  --breakpoint-desktop: 1024px;
+
+  --text-h1-d: 42px;
+  --text-h1-m:37px;
+  --text-h2-d:14px;
+  --text-h2-m:12px;
+  --text-h3-d:30px
+  --text-h3-m:22px;
+  --text-normal:16px;
+
+  /* background:linear-gradient(90deg, #365486 0%, #80C7D9 100%); */
+
+  --color-light: #ffffff;
+  --color-dark: #020202;
+  --color-sky-blue: #80c7d9;
+  --color-dark-blue: #101a38;
+  --color-middle-blue: #3f4860;
+  --color-light-blue: #39578a;
+}
