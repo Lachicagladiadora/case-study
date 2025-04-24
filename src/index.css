@@ -1,24 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Poppins&display=swap');
 @import "tailwindcss";
 
 @theme {
-  --font-display: "Satoshi", "sans-serif";
+  --font-cs-normal: "Poppins", sans-serif;
+  --font-cs-title: "Orbitron", sans-serif;
 
   --breakpoint-desktop: 1024px;
 
-  --text-h1-d: 42px;
-  --text-h1-m:37px;
-  --text-h2-d:14px;
-  --text-h2-m:12px;
-  --text-h3-d:30px
-  --text-h3-m:22px;
-  --text-normal:16px;
+  --text-cs-h1-d: 42px;
+  --text-cs-h1-m:37px;
+  --text-cs-h2-d:14px;
+  --text-cs-h2-m:12px;
+  --text-cs-h3-d:30px
+  --text-cs-h3-m:22px;
+  --text-cs-normal:16px;
+  --text-cs-navbar:12px;
 
   /* background:linear-gradient(90deg, #365486 0%, #80C7D9 100%); */
 
-  --color-light: #ffffff;
-  --color-dark: #020202;
-  --color-sky-blue: #80c7d9;
-  --color-dark-blue: #101a38;
-  --color-middle-blue: #3f4860;
-  --color-light-blue: #39578a;
+  --color-cs-light: #ffffff;
+  --color-cs-dark: #020202;
+  --color-cs-sky-blue: #80c7d9;
+  --color-cs-dark-blue: #101a38;
+  --color-cs-middle-blue: #3f4860;
+  --color-cs-light-blue: #39578a;
 }
