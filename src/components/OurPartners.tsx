@@ -22,17 +22,20 @@ export const OurPartners = ({ _currentSection }: OurPartnersProps) => {
         <div
           className={`w-full flex  items-center justify-center gap-0 md:flex-wrap`}
         >
-          {_currentSection.content[0].content[0].paragraphs.map((cur, idx) => (
-            <div
-              key={idx}
-              className="max-h-[320px] flex flex-col gap-2 items-center justify-center"
-            >
-              <img src={cur.imgSrc} alt="" className="size-36" />
-              <p className="text-wrap text-center font-bold desktop:w-36 uppercase text-cs-navbar font-cs-title">
-                {cur.text}
-              </p>
-            </div>
-          ))}
+          {_currentSection.content[0].content[0].paragraphs.map((cur, idx) => {
+            if (typeof cur !== "string")
+              return (
+                <div
+                  key={idx}
+                  className="max-h-[320px] flex flex-col gap-2 items-center justify-center"
+                >
+                  <img src={cur.imgSrc} alt="" className="size-36" />
+                  <p className="text-wrap text-center font-bold desktop:w-36 uppercase text-cs-navbar font-cs-title">
+                    {cur.text}
+                  </p>
+                </div>
+              );
+          })}
         </div>
       </div>
     </div>

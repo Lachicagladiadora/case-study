@@ -35,17 +35,20 @@ export const Roofing = ({ _currentSection }: RoofingProps) => {
 
               <div className="w-full flex flex-wrap items-center justify-center gap-6 py-8 md:flex-nowrap md:items-center md:justify-center">
                 {_currentSection.content[0].content[1].paragraphs.map(
-                  (cur, idx) => (
-                    <div
-                      key={idx}
-                      className="max-h-[220px] flex flex-col gap-2 items-center justify-center"
-                    >
-                      <img src={cur.imgSrc} alt="" className="size-12" />
-                      <p className="text-wrap text-center font-bold desktop:w-36 uppercase text-cs-navbar font-cs-title">
-                        {cur.text}
-                      </p>
-                    </div>
-                  )
+                  (cur, idx) => {
+                    if (typeof cur !== "string")
+                      return (
+                        <div
+                          key={idx}
+                          className="max-h-[220px] flex flex-col gap-2 items-center justify-center"
+                        >
+                          <img src={cur.imgSrc} alt="" className="size-12" />
+                          <p className="text-wrap text-center font-bold desktop:w-36 uppercase text-cs-navbar font-cs-title">
+                            {cur.text}
+                          </p>
+                        </div>
+                      );
+                  }
                 )}
               </div>
             </div>
