@@ -2,12 +2,15 @@ import { allContent } from "./types";
 
 export const ALL_CONTENT: allContent = [
   {
-    title: "About us",
+    sectionTitle: "About us",
     content: [
       {
+        bgColor: "light",
         content: [
           {
-            title: "THE BEST SOLAR SYSTEMS AND ROOFING COMPANY IN THE NATION!",
+            isImgLeft: true,
+            conceptTitle:
+              "THE BEST SOLAR SYSTEMS AND ROOFING COMPANY IN THE NATION!",
             imageSrc: [
               "https://allamericanpower.net/wp-content/uploads/2024/05/3.jpg",
               "https://allamericanpower.net/wp-content/uploads/2024/05/10.jpg",
@@ -20,6 +23,7 @@ export const ALL_CONTENT: allContent = [
         ],
       },
       {
+        bgColor: "light-blue",
         content: [
           {
             paragraphs: [
@@ -38,9 +42,10 @@ export const ALL_CONTENT: allContent = [
       },
       {
         subTitle: "Our Services",
+        bgColor: "dark-blue",
         content: [
           {
-            title: "Residential Solar Installation and Maintenance",
+            conceptTitle: "Residential Solar Installation and Maintenance",
             imageSrc: [
               "https://allamericanpower.net/wp-content/uploads/2024/05/65d453accf9c2-1.webp",
             ],
@@ -50,7 +55,9 @@ export const ALL_CONTENT: allContent = [
             callToAction: "Learn More",
           },
           {
-            title: "Commercial Solar Installation and Maintenance",
+            isImgLeft: true,
+            conceptTitle: "Commercial Solar Installation and Maintenance",
+            // bgColor:
             imageSrc: [
               "https://allamericanpower.net/wp-content/uploads/2024/05/manny-becerra-NgdhrwAx0J8-unsplash.webp",
             ],
@@ -63,9 +70,10 @@ export const ALL_CONTENT: allContent = [
       },
       {
         subTitle: "Locations",
+        bgColor: "light-blue",
         content: [
           {
-            title: "Where we Operate",
+            conceptTitle: "Where we Operate",
             imageSrc: [
               "https://allamericanpower.net/wp-content/uploads/2024/05/436586122_884525643439646_2413226482720214438_n.jpg",
             ],
@@ -81,13 +89,15 @@ export const ALL_CONTENT: allContent = [
   },
 
   {
-    title: "Benefits",
+    sectionTitle: "Benefits",
     content: [
       {
         subTitle: "",
+        bgColor: "dark",
         content: [
           {
-            title: "What Benefits you can take from solar",
+            isImgLeft: true,
+            conceptTitle: "What Benefits you can take from solar",
             imageSrc: [
               "https://allamericanpower.net/wp-content/uploads/2024/05/65dc9e5e0d0df.webp",
               "https://allamericanpower.net/wp-content/uploads/2024/05/pexels-kindelmedia-9875683-scaled.jpg",
@@ -99,7 +109,7 @@ export const ALL_CONTENT: allContent = [
             callToAction: "Get a Free Quote",
           },
           {
-            title: "What Benefits you can take from solar",
+            conceptTitle: "What Benefits you can take from solar",
             imageSrc: [
               "https://allamericanpower.net/wp-content/uploads/2024/05/pexels-cristian-rojas-8853503-2048x1368.jpg",
             ],
@@ -114,21 +124,22 @@ export const ALL_CONTENT: allContent = [
     ],
   },
   {
-    title: "Roofing",
+    sectionTitle: "Roofing",
     content: [
       {
         subTitle: "",
+        bgColor: "light",
         content: [
           {
-            title: "Roofing Expertise",
+            conceptTitle: "Roofing Expertise",
             imageSrc: [
               "https://allamericanpower.net/wp-content/uploads/2024/05/65dddbcbe160c-1.webp",
             ],
             paragraphs: [
               "We are proud to partner with the best roofing companies, all in- house contractors",
-              "GAF Partner",
-              "CertainTeed",
-              "We do all types of roofs",
+              "✔️ GAF Partner",
+              "✔️ CertainTeed",
+              "✔️ We do all types of roofs",
               "Hiring a roofing contractor is crucial; having a professional to work on your roofing will ensure your roof is in top condition. Safety is a big concern in roofing work, and contractors are trained to handle the risk involved, ensuring the job is done safely and correctly. In addition to that, contractors are experts in building codes and regulations, ensuring your roof meets all standards.",
             ],
           },
@@ -143,7 +154,7 @@ export const ALL_CONTENT: allContent = [
             ],
           },
           {
-            title: "Go Solar Today!",
+            conceptTitle: "Go Solar Today!",
             paragraphs: [
               "Much More than Solar Panel Installers, We Are Your Partners in Creating a Better Future.",
             ],
@@ -154,13 +165,14 @@ export const ALL_CONTENT: allContent = [
     ],
   },
   {
-    title: "Our partners",
+    sectionTitle: "Our partners",
     content: [
       {
         subTitle: "Brands We Know and Trust",
+        bgColor: "light",
         content: [
           {
-            title: "",
+            conceptTitle: "",
             paragraphs: [
               {
                 imgSrc:
@@ -196,4 +208,22 @@ export const ALL_CONTENT: allContent = [
       },
     ],
   },
+];
+
+export const RECENT_PROJECTS_IMAGE = [
+  "https://allamericanpower.net/wp-content/uploads/2024/05/436312896_967005218072309_3540530956169268875_n.jpg",
+  "https://allamericanpower.net/wp-content/uploads/2024/05/436498127_1115032226439476_8794830431422393215_n.jpg",
+  "https://allamericanpower.net/wp-content/uploads/2024/05/436489419_1491561384907588_2130546729769266739_n.jpg",
+  "https://allamericanpower.net/wp-content/uploads/2024/05/436524909_1497863347778116_902518286466673189_n.jpg",
+  "https://allamericanpower.net/wp-content/uploads/2024/05/436382184_434645215966083_5833292086224325401_n.jpg",
+  "https://allamericanpower.net/wp-content/uploads/2024/05/436344623_7222589927870516_4739259283079165257_n.jpg",
+  "https://allamericanpower.net/wp-content/uploads/2024/05/436421238_3868621096699974_3119502608469330018_n.jpg",
+  "https://allamericanpower.net/wp-content/uploads/2024/05/436574118_461330606425844_3732624731223611785_n.jpg",
+  "https://allamericanpower.net/wp-content/uploads/2024/05/435913984_3824618667860736_4213358091958660492_n.jpg",
+  "https://allamericanpower.net/wp-content/uploads/2024/05/436029310_7424735477575901_3017157507524465154_n.jpg",
+  "https://allamericanpower.net/wp-content/uploads/2024/05/441894354_1085342555892735_4034457138360167348_n.jpg",
+  "https://allamericanpower.net/wp-content/uploads/2024/05/442463159_852269506724934_3662227265140884428_n.jpg",
+  "https://allamericanpower.net/wp-content/uploads/2024/05/445382827_987373209426370_210333831360192169_n.jpg",
+  "https://allamericanpower.net/wp-content/uploads/2024/05/442694978_1871526053293085_5013102067576220326_n.jpg",
+  "https://allamericanpower.net/wp-content/uploads/2024/05/442435055_1205978400779910_7305029033948046143_n.jpg",
 ];

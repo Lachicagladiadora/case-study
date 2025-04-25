@@ -1,16 +1,17 @@
-import { ReactNode } from "react";
-
 export type page = "home" | "roofing" | "about" | "contact" | "affiliates";
+
+export type bgColor = "light" | "dark-blue" | "light-blue" | "dark" | "img";
 
 export type iconContent = {
   imgSrc: string;
   text?: string;
 };
 
-export type paragraphType = string | iconContent | ReactNode;
+export type paragraphType = string | iconContent;
 
 export type subContent = {
-  title?: string;
+  isImgLeft?: boolean;
+  conceptTitle?: string;
   imageSrc?: string[];
   paragraphs: paragraphType[];
   callToAction?: string;
@@ -18,10 +19,11 @@ export type subContent = {
 
 export type contentType = {
   subTitle?: string;
+  bgColor: bgColor;
   content: subContent[];
 };
 
 export type allContent = {
-  title: string;
+  sectionTitle: string;
   content: contentType[];
 }[];

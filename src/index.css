@@ -1,5 +1,5 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&family=Poppins&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600..900&family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins&display=swap");
 @import "tailwindcss";
 
 @theme {
@@ -9,15 +9,13 @@
   --breakpoint-desktop: 1024px;
 
   --text-cs-h1-d: 42px;
-  --text-cs-h1-m:37px;
-  --text-cs-h2-d:14px;
-  --text-cs-h2-m:12px;
-  --text-cs-h3-d:30px
-  --text-cs-h3-m:22px;
-  --text-cs-normal:16px;
-  --text-cs-navbar:12px;
-
-  /* background:linear-gradient(90deg, #365486 0%, #80C7D9 100%); */
+  --text-cs-h1-m: 37px;
+  --text-cs-h2-d: 14px;
+  --text-cs-h2-m: 12px;
+  --text-cs-h3-d: 30px;
+  --text-cs-h3-m: 22px;
+  --text-cs-normal: 16px;
+  --text-cs-navbar: 12px;
 
   --color-cs-light: #ffffff;
   --color-cs-dark: #020202;
