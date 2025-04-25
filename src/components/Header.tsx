@@ -14,12 +14,12 @@ export const Header = ({ currentPage, updatePage }: HeaderProps) => {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <header className="fixed z-10 h-[82px] w-dvw bg-cs-dark-blue opacity-90 text-cs-light flex flex-col items-center font-cs-title">
+    <header className="fixed z-20 h-[82px] w-dvw bg-cs-dark-blue opacity-90 text-cs-light flex flex-col items-center font-cs-title">
       <nav className="h-full flex justify-between items-center max-w-[1024px] w-full py-6 px-4">
         <h2 className="p-1 font-bold text-cs-h3-m desktop:text-cs-h3-d ">
           🔆 Maelo Solar
         </h2>
-        <div className="text-cs-navbar capitalize flex gap-6 w-0 overflow-hidden desktop:w-auto">
+        <div className="text-cs-navbar uppercase flex gap-6 w-0 overflow-hidden desktop:w-auto">
           <a
             className={`p-1  border-b-2 capitalize ${
               currentPage === "home"
